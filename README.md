@@ -6,9 +6,12 @@ Automatically generate Javadoc from your Java project and publish it to GitHub P
 
 ## Requirements
 - Your project need to use **Maven** or **Gradle**.
--Inputs:
+<details>
+<summary>
+<h2>Inputs</h2>
+</summary>
 
-|      input        |                 description                                |      default     |
+| input             | description                                                | default |
 |-------------------|------------------------------------------------------------|------------------|
 | java-version      | java version inside your project                           | 17               |
 | GITHUB_TOKEN      | The GitHub token the GitHub repository                     |                  |
@@ -19,8 +22,8 @@ Automatically generate Javadoc from your Java project and publish it to GitHub P
 | custom-command    | Custom command to generate the javadoc                     | ""               |
 | subdirectories    | Custom subdirectories to upload from                       |                  |
 | without-deploy    | Enable or disable deploy of the javadoc to the GitHub Page | false            |
-| without checkout  | Enable or disable the checkout                             | false            |
-
+| without-checkout  | Enable or disable the checkout                             | false            |
+</details>
 
 ## Usage
 
